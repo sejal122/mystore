@@ -1,0 +1,19 @@
+mat-button-toggle-group{
+    width: 100% ;
+   
+    text-align: center;
+}
+mat-button-toggle-group:first-child{
+  
+}
+.menu{
+   background-color: #d8d2d2d5;
+   
+   display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+mat-button-toggle{
+    
+}

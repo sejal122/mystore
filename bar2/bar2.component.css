@@ -1,0 +1,13 @@
+#bar2{
+    background-color: grey;
+    justify-content: space-around;
+    padding: 3px;
+}
+.social-btns{
+    padding: 3px;
+    margin-left: 20px;
+
+}
+button{
+    border-radius: 5px;
+}

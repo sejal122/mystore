@@ -1,0 +1,20 @@
+<nav>
+<mat-button-toggle-group  name="fontStyle" aria-label="Font Style">
+    <mat-button-toggle value="bold" style="width:4540px;"><h2 style="margin-top: 25px;"><a routerLink="/body" routerLinkActive="active">GOOD FILMS</a></h2></mat-button-toggle>
+    <mat-button-toggle class="menu" value="bold">Films <mat-form-field appearance="fill" style="background-color:transparent; border: none; width: 100px;align-items: center;margin-top: 15px ;margin-left: 10px;">
+        <mat-label >by genere</mat-label>
+        <mat-select style="border: none;" >
+          <mat-option>None</mat-option>
+          <mat-option value="option1">Comedy</mat-option>
+          <mat-option value="option2">Action</mat-option>
+          <mat-option value="option3">Drama</mat-option>
+        </mat-select>
+      </mat-form-field></mat-button-toggle>
+    <mat-button-toggle class="menu" value="italic"><a routerLink="/netflix" routerLinkActive="active">Netflix</a></mat-button-toggle>
+    <mat-button-toggle class="menu" value="underline">iTunes</mat-button-toggle>
+    <mat-button-toggle class="menu" value="underline"><a routerLink="/amazonprime" routerLinkActive="active">Amazon Prime</a></mat-button-toggle>
+    <mat-button-toggle class="menu" value="underline">Hulu Plus</mat-button-toggle>
+    <mat-button-toggle class="menu" value="underline">All services</mat-button-toggle>
+    <mat-button-toggle class="menu" value="underline"><i style="margin-right: 10px;" class='fas fa-search'></i><span><input style="padding: 5px;" type="text" id="search" placeholder="search for a film"></span></mat-button-toggle>
+    </mat-button-toggle-group></nav>
+    <app-bar2></app-bar2>

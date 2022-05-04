@@ -1,0 +1,13 @@
+
+<div id="body">
+<h1 style="color: rgb(185, 179, 179); margin-top: 50px;margin-left: 30px;">Find <span style="color: white;"><b>great films</b></span> on your favourite service</h1>
+<h3 style="color: rgb(185, 179, 179);margin-top: 10px;margin-left: 30px;letter-spacing: 2px;" >Based on <span style="color: white;">2,368,66</span> film reviews</h3>
+
+<div id="movie-list" style="padding: 20px;">
+    <mat-grid-list cols="4"  >
+        <mat-grid-tile *ngFor="let movie of Movies">  <h2>{{movie.name}}</h2></mat-grid-tile>
+       
+      </mat-grid-list>
+    
+</div>
+</div>

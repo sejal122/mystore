@@ -1,0 +1,20 @@
+#body{
+    background-color: #151d29;
+    height: 100% ;
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+}
+mat-grid-tile{
+    background-color: red;
+}
+#movie-list{
+    margin-top:50px;
+   
+}
+mat-grid-tile{
+    box-shadow: rgba(190, 186, 186, 0.35) 0px 5px 15px;
+   width: 300px !important;
+  
+}
